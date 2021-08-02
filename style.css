@@ -1,0 +1,37 @@
+.heading { 
+    font-size: 25px;
+    width: 60%;
+    margin: 0px;
+    box-shadow: 18px 18px 18px darkcyan;
+}
+.heading_div{
+    font-size: 20px;
+    float: none;
+    color:rgb(54, 192, 238) ;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: lightgoldenrodyellow -18px -18px 18px ;
+    width: 60%;
+}
+.heading_div_2{
+    font-family: Algerian;
+    font-size: 20px;
+    background-color: rgb(76, 240, 226);
+    border-radius: 50px;
+}
+canvas{
+    
+    animation-name:coolcolorchange ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-top: 150px;
+}
+@keyframes coolcolorchange{
+    from{
+        box-shadow: red 3px 3px  18px ;
+    }
+    to{
+        box-shadow: yellow 3px 3px 18px;
+    }
+    
+}
